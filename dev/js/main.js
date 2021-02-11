@@ -1,12 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
+$(document).ready(function () {
 	// Время и дата
 	(function () {
-		var $dateTime = document.querySelector('.date-time');
-		var $hours = $dateTime.querySelector('.date-time__hours');
-		var $minutes = $dateTime.querySelector('.date-time__minutes');
-		var $day = $dateTime.querySelector('.date-time__day');
-		var $month = $dateTime.querySelector('.date-time__month');
-		var $year = $dateTime.querySelector('.date-time__year');
+		var $dateTime = $('.date-time');
+		var $hours = $dateTime.find('.date-time__hours');
+		var $minutes = $dateTime.find('.date-time__minutes');
+		var $day = $dateTime.find('.date-time__day');
+		var $month = $dateTime.find('.date-time__month');
+		var $year = $dateTime.find('.date-time__year');
 
 		initDateTime();
 
@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
 			var date = updateDate();
 			var time = updateTime();
 
-			$hours.textContent = time.hours;
-			$minutes.textContent = time.minutes;
+			$hours.text(time.hours);
+			$minutes.text(time.minutes);
 
-			$day.textContent = date.day;
-			$month.textContent = date.month;
-			$year.textContent = date.year;
+			$day.text(date.day);
+			$month.text(date.month);
+			$year.text(date.year);
 		}
 
 		function updateDate() {
@@ -45,10 +45,27 @@ document.addEventListener('DOMContentLoaded', function () {
 			var hours = date.getHours();
 			var minutes = date.getMinutes();
 
+			if (minutes < 10) {
+				minutes = '0' + minutes;
+			}
+
 			return {
 				hours: hours,
 				minutes: minutes
 			}
 		}
+	})();
+
+	// feedback-content
+	(function () {
+		var $feedbackButton = $('.js-open-feedback-content');
+
+		$feedbackButton.on('click', function (e) {
+			e.preventDefault();
+
+			$feedbackButton.closest('.feedback-info').toggleClass('feedback-info_active');
+
+			$(this).toggleClass('feedback-button_send');
+		});
 	})();
 });

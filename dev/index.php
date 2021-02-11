@@ -13,7 +13,7 @@
                         <a class="navigation-top__link" href="#">Скажи спасибо!</a>
                     </nav>
                 </div>
-                <div class="content__right">
+                <div class="content__right content__right_indent">
                     <div class="presentation">
                         <div class="presentation__banner">
                             <img class="presentation__img" src="./img/misc/banner.jpg" alt="banner">

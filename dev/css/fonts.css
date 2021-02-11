@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/dev/fonts/ProximaNova/ProximaNova-Light.eot');
+    src: local('ProximaNova-Light'), local('ProximaNova Light'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Light.woff2') format('woff2'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Light.woff') format('woff'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/dev/fonts/ProximaNova/ProximaNova-Regular.eot');
+    src: local('ProximaNova-Regular'), local('ProximaNova Regular'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Regular.woff2') format('woff2'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/dev/fonts/ProximaNova/ProximaNova-RegularIt.eot');
+    src: local('ProximaNova-RegularIt'), local('ProximaNova RegularIt'),
+    url('/dev/fonts/ProximaNova/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/ProximaNova/ProximaNova-RegularIt.woff2') format('woff2'),
+    url('/dev/fonts/ProximaNova/ProximaNova-RegularIt.woff') format('woff'),
+    url('/dev/fonts/ProximaNova/ProximaNova-RegularIt.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/dev/fonts/ProximaNova/ProximaNova-Semibold.eot');
+    src: local('ProximaNova-Semibold'), local('ProximaNova Semibold'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Semibold.woff2') format('woff2'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff'),
+    url('/dev/fonts/ProximaNova/ProximaNova-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: italic;
+    font-weight: 600;
+    src: url('/dev/fonts/ProximaNova/ProximaNova-SemiboldIt.eot');
+    src: local('ProximaNova-SemiboldIt'), local('ProximaNova SemiboldIt'),
+    url('/dev/fonts/ProximaNova/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/ProximaNova/ProximaNova-SemiboldIt.woff2') format('woff2'),
+    url('/dev/fonts/ProximaNova/ProximaNova-SemiboldIt.woff') format('woff'),
+    url('/dev/fonts/ProximaNova/ProximaNova-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Magistral';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/dev/fonts/Magistral/Magistral-Light.eot');
+    src: local('Magistral-Light'), local('Magistral Light'),
+    url('/dev/fonts/Magistral/Magistral-Light.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/Magistral/Magistral-Light.woff2') format('woff2'),
+    url('/dev/fonts/Magistral/Magistral-Light.woff') format('woff'),
+    url('/dev/fonts/Magistral/Magistral-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Magistral';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/dev/fonts/Magistral/Magistral-Book.eot');
+    src: local('Magistral-Book'), local('Magistral Book'),
+    url('/dev/fonts/Magistral/Magistral-Book.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/Magistral/Magistral-Book.woff2') format('woff2'),
+    url('/dev/fonts/Magistral/Magistral-Book.woff') format('woff'),
+    url('/dev/fonts/Magistral/Magistral-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Magistral';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/dev/fonts/Magistral/Magistral-Medium.eot');
+    src: local('Magistral-Medium'), local('Magistral Medium'),
+    url('/dev/fonts/Magistral/Magistral-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/Magistral/Magistral-Medium.woff2') format('woff2'),
+    url('/dev/fonts/Magistral/Magistral-Medium.woff') format('woff'),
+    url('/dev/fonts/Magistral/Magistral-Medium.ttf') format('truetype');
+}

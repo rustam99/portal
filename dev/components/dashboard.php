@@ -2,7 +2,9 @@
 	<div class="user">
 		<div class="user__title">
 			<span class="user__name">Екатерина Иванова</span>
-			<img class="user__photo" src="/dev/img/misc/user.jpg" alt="Екатерина Иванова">
+            <span class="photo">
+                <img src="/dev/img/misc/user.jpg" alt="Екатерина Иванова">
+            </span>
 		</div>
 		<div class="user__date-time date-time">
 			<div class="date-time__row date-time__row_time">
@@ -76,23 +78,23 @@
 		<ul class="users-birthday__list users-birthday__list_bordered">
 			<li class="users-birthday__item">
 				<a class="users-birthday__link" href="#">
-					<img class="users-birthday__img" src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    <span class="users-birthday__present"></span>
+                    <span class="photo">
+                        <img src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    </span>
 					<span class="users-birthday__text">
-						<span class="users-birthday__name">
-							<span class="fw-bold d-block">Иванов</span> Иван Иванович
-						</span>
-						<span class="users-birthday__date d-block">Сегодня</span>
+                        <span class="fw-bold d-block">Иванов</span> Иван Иванович
 					</span>
 				</a>
 			</li>
 			<li class="users-birthday__item">
 				<a class="users-birthday__link" href="#">
-					<img class="users-birthday__img" src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    <span class="users-birthday__present"></span>
+				    <span class="photo">
+                        <img src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    </span>
 					<span class="users-birthday__text">
-						<span class="users-birthday__name">
-							<span class="fw-bold d-block">Иванов</span> Иван Иванович
-						</span>
-						<span class="users-birthday__date d-block">Сегодня</span>
+                        <span class="fw-bold d-block">Иванов</span> Иван Иванович
 					</span>
 				</a>
 			</li>
@@ -100,23 +102,23 @@
 		<ul class="users-birthday__list">
 			<li class="users-birthday__item">
 				<a class="users-birthday__link" href="#">
-					<img class="users-birthday__img" src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    <span class="users-birthday__present"></span>
+                    <span class="photo">
+                        <img src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    </span>
 					<span class="users-birthday__text">
-						<span class="users-birthday__name">
-							<span class="fw-bold d-block">Иванов</span> Иван Иванович
-						</span>
-						<span class="users-birthday__date d-block">Сегодня</span>
+                        <span class="fw-bold d-block">Иванов</span> Иван Иванович
 					</span>
 				</a>
 			</li>
 			<li class="users-birthday__item">
 				<a class="users-birthday__link" href="#">
-					<img class="users-birthday__img" src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    <span class="users-birthday__present"></span>
+                    <span class="photo">
+                        <img src="/dev/img/misc/user2.jpg" alt="Иванов Иван Иванович">
+                    </span>
 					<span class="users-birthday__text">
-						<span class="users-birthday__name">
-							<span class="fw-bold d-block">Иванов</span> Иван Иванович
-						</span>
-						<span class="users-birthday__date d-block">Сегодня</span>
+                        <span class="fw-bold d-block">Иванов</span> Иван Иванович
 					</span>
 				</a>
 			</li>

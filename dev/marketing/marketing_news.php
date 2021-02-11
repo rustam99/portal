@@ -72,6 +72,4 @@
 		</div>
 	</main>
 	<? include('../components/dashboard.php'); ?>
-</div>
-</body>
-</html>
+<? include('../components/footer.php')?>
