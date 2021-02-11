@@ -42,7 +42,7 @@
                         <div class="departments-inner__list departments-inner__list_thin">
 							<? for ($i = 0; $i < 11; $i++): ?>
                                 <a class="departments-inner__link" href="#">
-                                    <span class="departments-inner__top departments-inner__top_dynamic">
+                                    <span class="departments-inner__top">
                                         <img class="departments-inner__img" src="/dev/img/misc/logos.jpg" alt="Сертификат участника">
                                     </span>
                                     <span class="departments-inner__bottom">Сертификат участника</span>

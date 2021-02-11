@@ -1045,9 +1045,31 @@ a {
     margin: 25px;
 }
 
+.departments-inner__list_thin .departments-inner__top {
+    padding: 0;
+    height: auto;
+}
+
 .departments-inner__list_thin .departments-inner__bottom {
     font-size: 16px;
     font-weight: 300;
+}
+
+.departments-inner__list_circled {
+    justify-content: space-between;
+    margin: 0;
+}
+
+.departments-inner__list_circled .departments-inner__link {
+    margin: 0;
+    flex-basis: auto;
+}
+
+.departments-inner__list_circled .departments-inner__top {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border-radius: 50%;
 }
 
 .departments-inner__list + .departments-inner__list {
