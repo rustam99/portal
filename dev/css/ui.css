@@ -1,0 +1,226 @@
+.slick-slide {
+    outline: none
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.d-block {
+    display: block;
+}
+
+.photo {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.more-info {
+    padding-right: 22px;
+    font-weight: 300;
+    color: var(--blue);
+    background-image: url('/dev/img/icons/arrow_right_small.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.input-checkbox,
+.input-radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.input-checkbox:checked + .checkbox {
+    background-color: var(--blue);
+}
+
+.input-checkbox:checked + .checkbox:after {
+    display: block;
+}
+
+.input-checkbox:focus-visible + .checkbox {
+    border-color: var(--iskle-red);
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--blue);
+    position: relative;
+}
+
+.checkbox:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    width: 15px;
+    height: 5px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: none;
+}
+
+.input-radio:focus-visible + .radio {
+    border-color: var(--iskle-red);
+}
+
+.input-radio:checked + .radio:after {
+    display: block;
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.radio:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    display: none;
+}
+
+.textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-gray);
+    line-height: 30px;
+    background-color: #fff;
+    resize: none;
+    outline: none;
+}
+
+.button {
+    padding: 10px 45px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+    background-color: var(--blue);
+    cursor: pointer;
+    outline: none;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+}
+
+.back-button__text {
+    margin-left: 20px;
+    font-size: 18px;
+    color: var(--blue);
+}
+
+.back-department-button {
+    display: inline-flex;
+    height: 44px;
+    border: 1px solid var(--blue);
+}
+
+.back-department-button__fill {
+    width: 66px;
+    background-color: var(--blue);
+    position: relative;
+}
+
+.back-department-button__fill:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 24px;
+    background-image: url('/dev/img/icons/arrow_left_white.png');
+}
+
+.back-department-button__name {
+    padding: 5px 10px 5px 20px;
+    font-size: 28px;
+    color: var(--blue);
+    line-height: 34px;
+}
+
+/* icons */
+.search-icon {
+    width: 28px;
+    height: 28px;
+    background-image: url('/dev/img/icons/search.png');
+}
+
+.icon-left {
+    width: 20px;
+    height: 14px;
+    background-image: url('/dev/img/icons/arrow_left.png');
+    background-repeat: no-repeat;
+}
+
+.messenger-icon {
+    width: 38px;
+    height: 36px;
+    background-image: url('/dev/img/icons/messenger.png');
+    background-repeat: no-repeat;
+}
+
+.colleagues-info-icon {
+    width: 38px;
+    height: 30px;
+    background-image: url('/dev/img/icons/info.png');
+    background-repeat: no-repeat;
+}
+
+.colleagues-info-icon_birthday {
+    background-position-x: 0;
+}
+
+.colleagues-info-icon_appointed {
+    background-position-x: -40px;
+}
+
+.colleagues-info-icon_news {
+    background-position-x: -80px;
+}
+
+.controls-icon {
+    height: 15px;
+    background-image: url('/dev/img/icons/news_controls.png');
+    background-repeat: no-repeat;
+}
+
+.controls-icon_eye {
+    width: 19px;
+}
+
+.controls-icon_like {
+    width: 15px;
+}
+
+.controls-icon_like {
+    background-position-x: -23px;
+}

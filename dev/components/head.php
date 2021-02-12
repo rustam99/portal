@@ -5,6 +5,9 @@
 	<title>Портал</title>
 	<link rel="stylesheet" href="/dev/css/normalize.css">
 	<link rel="stylesheet" href="/dev/css/fonts.css">
+    <link rel="stylesheet" href="/dev/js/slick/slick.css">
+    <link rel="stylesheet" href="/dev/js/slick/slick-theme.css">
+    <link rel="stylesheet" href="/dev/css/ui.css">
 	<link rel="stylesheet" href="/dev/css/style.css">
 </head>
 <body>

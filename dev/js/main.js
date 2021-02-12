@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 		function updateDate() {
 			var date = new Date();
-			var day = date.getDay();
+			var day = date.getDate();
 			var month = date.getMonth();
 			var year = date.getFullYear();
 			var months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
@@ -66,6 +66,16 @@ $(document).ready(function () {
 			$feedbackButton.closest('.feedback-info').toggleClass('feedback-info_active');
 
 			$(this).toggleClass('feedback-button_send');
+		});
+	})();
+
+	// Баннер на главной
+	(function () {
+		var $banner= $('.presentation__banner');
+
+		$banner.slick({
+			autoplay: true,
+			arrows: false,
 		});
 	})();
 });

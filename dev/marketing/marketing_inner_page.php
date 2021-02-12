@@ -25,7 +25,7 @@
 				<div class="content__right">
 					<? include('../components/breadcrumbs.php'); ?>
                     <a class="date date_indent" href="#">
-                        <span class="date__month">Январь</span>
+                        <span class="date__month">Январь</span>,
                         <span class="date__year">2021</span>
                     </a>
 					<div class="departments-inner">

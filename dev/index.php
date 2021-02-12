@@ -17,6 +17,8 @@
                     <div class="presentation">
                         <div class="presentation__banner">
                             <img class="presentation__img" src="./img/misc/banner.jpg" alt="banner">
+                            <img class="presentation__img" src="./img/misc/banner.jpg" alt="banner">
+                            <img class="presentation__img" src="./img/misc/banner.jpg" alt="banner">
                         </div>
                         <div class="presentation__bottom">
                             <a class="presentation__bottom-link" href="#">
@@ -61,7 +63,7 @@
                                 <span class="department__top">
                                     <img class="department__img" src="./img/interface/provision.svg" alt="Обеспечение">
                                 </span>
-                                <span class="department__bottom">Обеспечение</span>
+                                <span class="department__bottom">SUPPORT</span>
                             </a>
                         </div>
                     </div>
@@ -77,62 +79,64 @@
                     </a>
                     <div class="news">
                         <ul class="news__list">
-                            <li class="news__item">
-                                <img class="news__link__img" src="./img/misc/news_1.jpg" alt="news_1">
-                                <div class="news__text">
-                                    Ассоциация кластеров и технопарков России подвела итоги VI Национального рейтинга технопарков России.
-                                    В 2020 году в рейтинг вошёл 41 технопарк и нанотехнологический центр из 23 регионов.
-                                    Эксперты оценили лучшие практики управления и вклад в развитие высокотехнологичного сектора экономики России.
-                                </div>
-                                <a class="news__link more-info" href="#">Читать далее</a>
-                                <div class="news__controls">
-                                    <div class="news__control">
-                                        <span class="controls-icon controls-icon_eye"></span>
-                                        <span class="news__quantity">324</span>
+                            <? for ($i = 0; $i < 2; $i++): ?>
+                                <li class="news__item">
+                                    <img class="news__link__img" src="./img/misc/news_1.jpg" alt="news_1">
+                                    <div class="news__text">
+                                        Ассоциация кластеров и технопарков России подвела итоги VI Национального рейтинга технопарков России.
+                                        В 2020 году в рейтинг вошёл 41 технопарк и нанотехнологический центр из 23 регионов.
+                                        Эксперты оценили лучшие практики управления и вклад в развитие высокотехнологичного сектора экономики России.
                                     </div>
-                                    <div class="news__control news__control_pointer">
-                                        <span class="controls-icon controls-icon_like"></span>
-                                        <span class="news__quantity">324</span>
+                                    <a class="news__link more-info" href="#">Читать далее</a>
+                                    <div class="news__controls">
+                                        <div class="news__control">
+                                            <span class="controls-icon controls-icon_eye"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
+                                        <div class="news__control news__control_pointer">
+                                            <span class="controls-icon controls-icon_like"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <img class="news__link__img" src="./img/misc/news_2.jpg" alt="news_2">
-                                <div class="news__text">
-                                    Вентиляционными установками и центральными кондиционерами Ballu и Shuft, компрессорно- конденсаторными блоками Electrolux,
-                                    радиаторами Royal Thermo, системами автоматизации Shuft и Danfoss
-                                    были оснащены ведущие  российские  клиники,  инфекционные  больницы  и  фармпредприятия
-                                </div>
-                                <a class="news__link more-info" href="#">Читать далее</a>
-                                <div class="news__controls">
-                                    <div class="news__control">
-                                        <span class="controls-icon controls-icon_eye"></span>
-                                        <span class="news__quantity">324</span>
+                                </li>
+                                <li class="news__item">
+                                    <img class="news__link__img" src="./img/misc/news_2.jpg" alt="news_2">
+                                    <div class="news__text">
+                                        Вентиляционными установками и центральными кондиционерами Ballu и Shuft, компрессорно- конденсаторными блоками Electrolux,
+                                        радиаторами Royal Thermo, системами автоматизации Shuft и Danfoss
+                                        были оснащены ведущие  российские  клиники,  инфекционные  больницы  и  фармпредприятия
                                     </div>
-                                    <div class="news__control news__control_pointer">
-                                        <span class="controls-icon controls-icon_like"></span>
-                                        <span class="news__quantity">324</span>
+                                    <a class="news__link more-info" href="#">Читать далее</a>
+                                    <div class="news__controls">
+                                        <div class="news__control">
+                                            <span class="controls-icon controls-icon_eye"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
+                                        <div class="news__control news__control_pointer">
+                                            <span class="controls-icon controls-icon_like"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <img class="news__link__img" src="./img/misc/news_3.jpg" alt="news_3">
-                                <div class="news__text">
-                                    На объектах ГК Фосагро (Волховский филиал АО «Апатит»)
-                                    заменено вентиляционное оборудованиеТМ ВЕЗА силами менеджеров
-                                </div>
-                                <a class="news__link more-info" href="#">Читать далее</a>
-                                <div class="news__controls">
-                                    <div class="news__control">
-                                        <span class="controls-icon controls-icon_eye"></span>
-                                        <span class="news__quantity">324</span>
+                                </li>
+                                <li class="news__item">
+                                    <img class="news__link__img" src="./img/misc/news_3.jpg" alt="news_3">
+                                    <div class="news__text">
+                                        На объектах ГК Фосагро (Волховский филиал АО «Апатит»)
+                                        заменено вентиляционное оборудованиеТМ ВЕЗА силами менеджеров
                                     </div>
-                                    <div class="news__control news__control_pointer">
-                                        <span class="controls-icon controls-icon_like"></span>
-                                        <span class="news__quantity">324</span>
+                                    <a class="news__link more-info" href="#">Читать далее</a>
+                                    <div class="news__controls">
+                                        <div class="news__control">
+                                            <span class="controls-icon controls-icon_eye"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
+                                        <div class="news__control news__control_pointer">
+                                            <span class="controls-icon controls-icon_like"></span>
+                                            <span class="news__quantity">324</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
+                                </li>
+                            <? endfor; ?>
                         </ul>
                     </div>
                 </div>
