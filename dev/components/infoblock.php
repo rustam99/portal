@@ -16,6 +16,7 @@
             </div>
             <textarea class="feedback-info__textarea" name="text" id="feedback-text" rows="5" placeholder="Ваши комментарии и предложения"></textarea>
         </div>
+        <div class="feedback-info__note">Благодарим за отклик!</div>
         <button type="submit" class="feedback-button js-open-feedback-content"></button>
     </form>
 </section>

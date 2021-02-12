@@ -1,5 +1,4 @@
 <? include('../components/head.php'); ?>
-<div class="wrapper">
 	<? include('../components/infoblock.php'); ?>
 	<main class="main">
 		<? include('../components/header.php'); ?>
