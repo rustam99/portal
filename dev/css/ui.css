@@ -167,6 +167,34 @@
     line-height: 34px;
 }
 
+.tabs {}
+
+.tabs__head {}
+
+.tabs__body .tabs__item:not(.tabs__item_visible) {
+    display: none;
+}
+
+.tabs__item {
+    position: relative;
+    padding-top: 12px;
+}
+
+.tabs__item:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    background-color: var(--blue);
+    display: none;
+}
+
+.tabs__item_active:before {
+    display: block;
+}
+
 /* icons */
 .search-icon {
     width: 28px;

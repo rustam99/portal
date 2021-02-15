@@ -131,4 +131,24 @@ $(document).ready(function () {
 			}
 		}
 	})();
+
+	// Табы
+	(function () {
+		var $tabsHead = $('.tabs__head');
+		var $tabsBody = $('.tabs__body');
+
+		$tabsHead.find('.tabs__item').on('click', function (e) {
+			e.preventDefault();
+
+			var index = $(this).index();
+
+			if (!$(this).hasClass('tabs__item_active')) {
+				$(this).siblings().removeClass('tabs__item_active');
+				$(this).addClass('tabs__item_active');
+
+				$tabsBody.find('.tabs__item').eq(index).siblings().removeClass('tabs__item_visible');
+				$tabsBody.find('.tabs__item').eq(index).addClass('tabs__item_visible');
+			}
+		});
+	})();
 });
