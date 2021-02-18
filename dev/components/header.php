@@ -1,7 +1,7 @@
 <header class="header">
 	<div class="header__left">
 		<a class="header__logo-link" href="#">
-			<img class="header__logo" src="/dev/img/interface/logo.png" alt="logo">
+			<img class="header__logo" src="/dev/img/interface/logos/logo.png" alt="logo">
 		</a>
 	</div>
 	<div class="header__right">
